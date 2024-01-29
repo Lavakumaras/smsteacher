@@ -10,6 +10,9 @@ public class class1 extends BaseClass {
 	public void test1()
 	{
 		System.out.println("class1 test 1");
+		System.out.println("class1 test 1");
+		System.out.println("class1 test 1");
+		System.out.println("class1 test 1");
 	}
 	
 	@Test
