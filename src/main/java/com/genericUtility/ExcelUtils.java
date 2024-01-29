@@ -83,7 +83,7 @@ public class ExcelUtils {
 	 * @return
 	 * @throws Throwable
 	 */
-	public Object[][] ReadDataToDataProvider(String sheetName) throws Throwable 
+	public Object[][] ReadDatafromDataProvider(String sheetName) throws Throwable 
 	{
 		FileInputStream fis = new FileInputStream(IPathConstants.ExcelPath);
 		Workbook wb = WorkbookFactory.create(fis);

@@ -62,7 +62,7 @@ public class BaseClass {
 
 	@BeforeMethod(alwaysRun = true) //for batch r group execution
 	public void config_BM() throws Throwable {
-		driver.get(flib.readDataFromPropertyFile("irctcUrl"));
+		//driver.get(flib.readDataFromPropertyFile("irctcUrl"));
 		wlib.implicitwait(driver, 20);
 		
 		Reporter.log("application launched", true);
@@ -79,7 +79,7 @@ public class BaseClass {
 	@AfterClass(alwaysRun = true)//for batch r group execution
 	public void config_AC() {
 
-		//driver.quit();
+		driver.quit();
 
 		Reporter.log("browser closed", true);
 	

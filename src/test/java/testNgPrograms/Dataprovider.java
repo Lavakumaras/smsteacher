@@ -88,7 +88,7 @@ public class Dataprovider {
 public Object[][] addRoom() throws Throwable
 {
 	ExcelUtils exlUtil = new ExcelUtils();
-	Object[][] obj = exlUtil.ReadDataToDataProvider("addclassroom");
+	Object[][] obj = exlUtil.ReadDatafromDataProvider("addclassroom");
 	return obj;
 }
 
