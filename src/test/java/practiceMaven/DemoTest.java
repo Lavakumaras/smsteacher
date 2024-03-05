@@ -3,7 +3,7 @@ package practiceMaven;
 import org.testng.annotations.Test;
 
 public class DemoTest {
-@Test(groups= "smoke")
+@Test(groups= "integration")
 public void script1Test()
 {
 	System.out.println("--test Sript1");
