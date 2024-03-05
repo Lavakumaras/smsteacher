@@ -5,7 +5,8 @@ import org.testng.annotations.Test;
 public class DemoTest {
 
 @Test(groups= "regression")
-public void script1Test1()
+public void script1Test1() {
+}
 
 @Test(groups= "regression")
 public void script1Test()
