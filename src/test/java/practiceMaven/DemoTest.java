@@ -3,8 +3,12 @@ package practiceMaven;
 import org.testng.annotations.Test;
 
 public class DemoTest {
-@Test(groups= "integrat")
+
+@Test(groups= "regression")
 public void script1Test1()
+
+@Test(groups= "regression")
+public void script1Test()
 {
 	System.out.println("--test Sript1");
 	}
